@@ -1,0 +1,37 @@
+{
+    "type": "lull:lull",
+    "generator": {
+        "biome_source": {
+            "biomes": [
+                {
+                  "biome": "minecraft:deep_ocean",
+                  "parameters": {
+                    "temperature": 0,
+                    "humidity": 0,
+                    "continentalness": 0,
+                    "erosion": 0,
+                    "weirdness": 0,
+                    "depth": 0,
+                    "offset": 0
+                  }
+                },
+                {
+                  "biome": "minecraft:stony_shore",
+                  "parameters": {
+                    "temperature": 0,
+                    "humidity": 0,
+                    "continentalness": 0,
+                    "erosion": 0,
+                    "weirdness": 1,
+                    "depth": 0,
+                    "offset": 0
+                  }
+                }
+            ],
+            "type": "minecraft:multi_noise"
+        },
+        "seed": 0,
+        "settings": "lull:lull",
+        "type": "minecraft:noise"
+    }
+}
